@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Gaia Red</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style-ds.css') }}">
+</head>
+<body>
+    <header>
+        <ul class="header-left">
+            <li class="titulo"><a href="/">Gaia Red</a></li>
+            <li class="logo-gaia"><img src="https://icons.iconarchive.com/icons/pixelkit/flat-jewels/48/Tree-icon.png" alt="Logo_gaia.png"></li>
+            
+        </ul>
+        <div class="div-right">
+            <ul class="header-right">
+                <li><h2 class="title-gaia">Estación 1: GaiaRed</h2></li>
+                <li><h4 class="subt-gaia">Subtítulo</h4></li>
+                
+            </ul>
+            <img src="https://icons.iconarchive.com/icons/graphicloads/flat-finance/48/person-icon.png" alt="*.png">
+        </div>
+
+    </header>
+    <main>
+        <section class="sensores">
+            <div class="hr"><h3>Humedad Relativa (%) {dato}</h3></div>
+            <div class="temp"><h3>Temperatura (°C) {dato}</h3></div>
+            <div class="dist"><h3>Distancia (cm) {dato}</h3></div>
+            <div class="brillo"><h3>Brillo (on/off) {dato}</h3></div>
+            
+        </section>
+
+        <section class="histograma">
+            <h2>Histograma</h2>
+            <img src="https://datavizcatalogue.com/ES/metodos/images/top_images/SVG/histograma.svg" alt="histograma.png">
+        </section>
+                
+        <section class="grafica">
+            <h2>Temperatura y HR en 24h</h2>
+            <img src="https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-1-8_RESOURCE/U08_L1_T2_text_final_2_files/image006.gif" alt="grafica.png">
+        </section>
+    </main>
+</body>
+</html>

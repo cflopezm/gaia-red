@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #eae9e4;
+}
+
+header {
+    
+    height: 60px;
+    padding: 8px 8px 8px 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid rgb(190, 185, 185);
+    margin-bottom: 20px;
+    
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+header .div-right {
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+header .div-right .header-right {
+    padding: 5px 5px 0 0;
+    margin: 5px 5px 0 0;
+    
+}
+
+
+header .header-left {
+    display: flex;  
+    justify-content:start ;
+    align-items: center; 
+    margin-left: 25%;
+       
+}
+
+header .header-left .titulo a {
+    font-size: 20px;
+    color: #5a2f27;
+    text-decoration: none;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    
+    margin: 2em auto;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    border: 2px solid rgb(190, 185, 185);
+    
+}
+
+main .sensores {
+    
+    display: flex;
+    flex-direction: column;
+    
+    /*justify-content: space-around;*/
+
+}
+
+main .sensores h3 {
+    padding: 10px 0 0 10px;
+}
+
+main .sensores .hr,
+main .sensores .temp,
+main .sensores .dist,
+main .sensores .brillo{
+    border-bottom: 2px solid rgb(190, 185, 185);
+    border-right: 2px solid rgb(190, 185, 185);
+    flex-grow: 1;
+
+    
+}
+
+main .histograma {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main .histograma img {
+    /*width: 100%;*/
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+
+
+main .grafica {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main .grafica img {
+    height: max-content;
+    box-sizing: border-box;
+    padding: 10px 10px 0 10px;
+}
+
+
